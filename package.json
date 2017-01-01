@@ -1,0 +1,33 @@
+{
+  "name": "git_find_people",
+  "version": "1.0.0",
+  "description": "App to find prospective employees with required programming lang",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivateja-madipalli/git_find_people.git"
+  },
+  "keywords": [
+    "find",
+    "people",
+    "programming",
+    "languages"
+  ],
+  "author": "big_hair_dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivateja-madipalli/git_find_people/issues"
+  },
+  "homepage": "https://github.com/shivateja-madipalli/git_find_people#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "lodash": "^4.17.3",
+    "mongoose": "^4.7.5",
+    "node-rest-client": "^2.0.1",
+    "promise": "^7.1.1",
+    "request": "^2.79.0"
+  }
+}
