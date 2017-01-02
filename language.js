@@ -7,7 +7,6 @@ var LANGUAGE_POOL = null;
 var language = function() {
 
   this.match_language = (user_repos, languagePool) => {
-    return new Promise((resolve, reject) => {
       LANGUAGE_POOL = languagePool;
       self.createLanguagesWithInitialCount();
       // console.log('match_language');
@@ -19,15 +18,14 @@ var language = function() {
           self.languageMatchIncrementor(lower_repo_prominent_lang);
         }
       });
-      resolve(language_matches);
-    });
+      return language_matches;
   }
 
   this.languageMatchIncrementor = (language) => {
     // console.log('languageMatchIncrementor');
     let matchedLangObj =  _.find(language_matches, {'language' : language});
     if(matchedLangObj)
-    matchedLangObj['count'] = matchedLangObj['count'] + 1;
+      matchedLangObj['count'] = matchedLangObj['count'] + 1;
   }
 
   this.languageMatchesJSONCreator = (language, count) => {

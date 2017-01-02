@@ -5,14 +5,18 @@ var schema = mongoose.Schema;
 
 var language_count = new schema({
   language: String,
-  count: Number
+  count: Number,
+  _id: String
 });
 
 var userData = new schema({
   name: String,
   user_html_endpoint: String,
   user_avatar_url: String,
-  language_counts: [language_count],
+  language_counts: [{
+    language: String,
+    count: Number
+  }],
   rank: Number
 });
 
