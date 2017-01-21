@@ -8,10 +8,13 @@ you can find those engineers with this application and the results are based on 
 This just has the backend services up and running, need little more brushing on the how the data is retrieved and filtered.
 
 * Filtering Criteria:
-Number of Stars
-Repo main Language
-And many more.
+ * Number of Stars
+ * Repo main Language And many more.
 
-Todo:
-Front End.
+* Todo:
+ * Front End
+ 
+ 
+ _Shivateja(Shiv) Madipalli_
+ _https://shivatejam.com_
 
