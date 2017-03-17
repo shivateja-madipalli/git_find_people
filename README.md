@@ -7,11 +7,12 @@ you can find those engineers with this application and the results are based on 
 
 This just has the backend services up and running, need little more brushing on how the data is retrieved and filtered.
 
-* Filtering Criteria:
+### Filtering Criteria:
  * Number of Stars
  * Repo main Language And many more.
-
-* Todo:
+ 
+ 
+##### Todo:
  * Front End
  
  
