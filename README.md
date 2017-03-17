@@ -5,7 +5,7 @@ The whole idea of the project is to find best technical talent with required ski
 Say you want to find some engineers with JavaScript as the main language and Java + Scala as secondary languages, 
 you can find those engineers with this application and the results are based on their github repositories.
 
-This just has the backend services up and running, need little more brushing on the how the data is retrieved and filtered.
+This just has the backend services up and running, need little more brushing on how the data is retrieved and filtered.
 
 * Filtering Criteria:
  * Number of Stars
